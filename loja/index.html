@@ -1,0 +1,948 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+        <script src="../cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-subids="" async="" defer=""></script>
+
+       <script>
+  window.pixelId = "68f82bf4cfa71a575d894a37";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+<script async="" defer="" src="js/pixel.html"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Loja Rossi Oficial - Kits completos de armas de airsoft com entrega para todo Brasil. Revólveres, pistolas e acessórios com nota fiscal e garantia.">
+    <meta name="keywords" content="airsoft, rossi, revólver, pistola, co2, esferas, kit completo, nota fiscal">
+    <meta name="author" content="Loja Rossi Oficial">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rossioficial.shop/">
+    <meta property="og:title" content="Loja Rossi Oficial - Entrega para Todo Brasil">
+    <meta property="og:description" content="Kits completos de armas de airsoft com entrega para todo Brasil. Revólveres, pistolas e acessórios com nota fiscal e garantia.">
+    <meta property="og:image" content="https://rossioficial.shop/images/banner-desktop.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rossioficial.shop/">
+    <meta property="twitter:title" content="Loja Rossi Oficial - Entrega para Todo Brasil">
+    <meta property="twitter:description" content="Kits completos de armas de airsoft com entrega para todo Brasil. Revólveres, pistolas e acessórios com nota fiscal e garantia.">
+    <meta property="twitter:image" content="https://rossioficial.shop/images/banner-desktop.jpg">
+
+    <title>Loja Rossi Oficial - Entrega para Todo Brasil</title>
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://rossioficial.shop/">
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.utmify.com.br">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://rossiairgunsairsoft.vercel.app/loja/css/styles.min.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" as="style">
+    
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://rossiairgunsairsoft.vercel.app/loja/css/styles.min.css" rel="stylesheet">
+    
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="https://rossiairgunsairsoft.vercel.app/loja/manifest.json">
+    
+    <!-- Critical CSS inline -->
+    <style>
+        :root {
+            --primary-color: #1d0e46;
+            --secondary-color: #13c600;
+            --accent-color: #fab737;
+            --text-color: #333;
+            --text-light: #666;
+            --border-color: #e3e3e3;
+            --white: #ffffff;
+            --red: #dc3545;
+            --spacing-xs: 4px;
+            --spacing-sm: 8px;
+            --spacing-md: 12px;
+            --spacing-lg: 16px;
+            --spacing-xl: 24px;
+            --spacing-xxl: 32px;
+            --border-radius: 8px;
+            --border-radius-sm: 4px;
+            --transition: all 0.3s ease;
+            --shadow: 0 2px 8px rgba(0,0,0,0.1);
+            --shadow-hover: 0 4px 16px rgba(0,0,0,0.15);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Montserrat", system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        /* Header styles */
+        .header {
+            background-color: var(--primary-color);
+            padding: var(--spacing-lg) 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow);
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-lg);
+        }
+
+        .menu-toggle {
+            background: none;
+            border: none;
+            color: var(--white);
+            font-size: 2rem;
+            cursor: pointer;
+            padding: var(--spacing-sm);
+            border-radius: var(--border-radius-sm);
+            transition: var(--transition);
+        }
+
+        .menu-toggle:hover,
+        .menu-toggle:focus {
+            background-color: rgba(255, 255, 255, 0.1);
+            outline: 2px solid var(--white);
+            outline-offset: 2px;
+        }
+
+        .search-box {
+            flex: 1;
+            max-width: 400px;
+            margin: 0 var(--spacing-lg);
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: var(--spacing-md) var(--spacing-xl) var(--spacing-md) var(--spacing-lg);
+            border: none;
+            border-radius: var(--border-radius);
+            font-size: 0.9rem;
+            background-color: var(--white);
+            transition: var(--transition);
+        }
+
+        .search-input:focus {
+            outline: 2px solid var(--secondary-color);
+            outline-offset: 2px;
+        }
+
+        .search-button {
+            position: absolute;
+            right: var(--spacing-sm);
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: var(--text-color);
+            font-size: 1rem;
+            cursor: pointer;
+            padding: var(--spacing-sm);
+            border-radius: var(--border-radius-sm);
+            transition: var(--transition);
+        }
+
+        .search-button:hover,
+        .search-button:focus {
+            background-color: var(--border-color);
+            outline: 2px solid var(--secondary-color);
+            outline-offset: 2px;
+        }
+
+        .logo {
+            height: 50px;
+            width: auto;
+        }
+
+        /* Banner styles */
+        .banner {
+            margin: 0 auto;
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        .banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Countdown styles */
+        .countdown {
+            padding: var(--spacing-xl) var(--spacing-lg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: var(--spacing-lg);
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+
+        .countdown-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .countdown-number {
+            font-size: 2rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary-color) 0%, #2d1b69 100%);
+            color: var(--white);
+            padding: var(--spacing-lg) var(--spacing-xl);
+            border-radius: var(--border-radius);
+            min-width: 80px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .countdown-number:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-hover);
+        }
+
+        .countdown-label {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-light);
+            margin-top: var(--spacing-sm);
+        }
+
+        /* Products grid */
+        .products-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: var(--spacing-xl) var(--spacing-lg);
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: var(--spacing-xl);
+        }
+
+        /* Product card styles */
+        .product-card {
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            transition: var(--transition);
+            background: var(--white);
+            box-shadow: var(--shadow);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-hover);
+            border-color: var(--secondary-color);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .product-card:hover .product-image {
+            transform: scale(1.05);
+        }
+
+        .product-content {
+            padding: var(--spacing-lg);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-title {
+            font-size: 1rem;
+            font-weight: 600;
+            line-height: 1.4;
+            margin: 0 0 var(--spacing-md) 0;
+            color: var(--text-color);
+        }
+
+        .product-rating {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+            margin-bottom: var(--spacing-md);
+            font-size: 0.9rem;
+        }
+
+        .stars {
+            display: flex;
+            gap: 2px;
+        }
+
+        .star {
+            color: var(--accent-color);
+            font-size: 0.9rem;
+        }
+
+        .rating-count {
+            color: var(--text-light);
+        }
+
+        .price-section {
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .price-original {
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-md);
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .price-old {
+            font-size: 0.9rem;
+            text-decoration: line-through;
+            color: var(--text-light);
+        }
+
+        .discount-badge {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: var(--spacing-xs) var(--spacing-sm);
+            font-size: 0.75rem;
+            border-radius: var(--border-radius-sm);
+            font-weight: 600;
+        }
+
+        .price-current {
+            color: var(--red);
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .stock-info {
+            font-size: 0.8rem;
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        .btn-checkout {
+            width: 100%;
+            background: linear-gradient(135deg, var(--secondary-color) 0%, #0ea500 100%);
+            border: none;
+            padding: var(--spacing-lg);
+            color: var(--white);
+            font-size: 1rem;
+            font-weight: 700;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            transition: var(--transition);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: auto;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .btn-checkout:hover,
+        .btn-checkout:focus {
+            background: linear-gradient(135deg, #0ea500 0%, var(--secondary-color) 100%);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-hover);
+            color: var(--white);
+            text-decoration: none;
+            outline: 2px solid var(--white);
+            outline-offset: 2px;
+        }
+
+        .btn-checkout.pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .header-content {
+                padding: 0 var(--spacing-md);
+            }
+            
+            .search-box {
+                margin: 0 var(--spacing-md);
+            }
+            
+            .logo {
+                height: 40px;
+            }
+            
+            .countdown {
+                gap: var(--spacing-md);
+                padding: var(--spacing-lg) var(--spacing-md);
+            }
+            
+            .countdown-number {
+                font-size: 1.5rem;
+                padding: var(--spacing-md) var(--spacing-lg);
+                min-width: 60px;
+            }
+            
+            .products-section {
+                padding: var(--spacing-lg) var(--spacing-md);
+            }
+            
+            .products-grid {
+                grid-template-columns: 1fr;
+                gap: var(--spacing-lg);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .countdown {
+                gap: var(--spacing-sm);
+            }
+            
+            .countdown-number {
+                font-size: 1.2rem;
+                padding: var(--spacing-sm) var(--spacing-md);
+                min-width: 50px;
+            }
+        }
+
+        /* Utility classes */
+        .desktop-only {
+            display: block;
+        }
+
+        .mobile-only {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .desktop-only {
+                display: none !important;
+            }
+
+            .mobile-only {
+                display: block !important;
+            }
+        }
+    </style>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Store",
+        "name": "Loja Rossi Oficial",
+        "description": "Loja oficial de armas de airsoft Rossi com entrega para todo Brasil",
+        "url": "https://rossiairgunsairsoft.online/",
+        "logo": "https://rossiairgunsairsoft.online/images/logo1.png",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "BR"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Produtos Airsoft",
+            "itemListElement": [
+                {
+                    "@type": "Product",
+                    "name": "Kit Rossi Revólver 708s",
+                    "description": "Kit completo com revólver, 5 cilindros co2, 1300 esferas e silicone + NOTA FISCAL",
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "0.00",
+                        "priceCurrency": "BRL",
+                        "availability": "https://schema.org/InStock"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+
+    <!-- Tracking Scripts -->
+    <script>
+        window.pixelId = "687dddaf590fa8596172505a";
+    </script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="header-content">
+            <button class="menu-toggle" aria-label="Abrir menu de navegação" type="button">
+                <i class="bi bi-list" aria-hidden="true"></i>
+            </button>
+            
+            <div class="search-box">
+                <label for="search-input" class="sr-only">Buscar produtos</label>
+                <input 
+                    type="search" 
+                    id="search-input"
+                    class="search-input" 
+                    placeholder="O que você procura?"
+                    aria-label="Buscar produtos"
+                >
+                <button class="search-button" type="button" aria-label="Buscar">
+                    <i class="bi bi-search" aria-hidden="true"></i>
+                </button>
+            </div>
+            
+            <img src="images/logo1.png" alt="Loja Rossi Oficial" class="logo" width="200" height="50">
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main role="main">
+       
+
+      <!-- Countdown Section -->
+<section class="countdown" aria-label="Contador de tempo da promoção">
+  <h2 class="sr-only">Tempo restante da promoção</h2>
+
+  <div class="countdown-item">
+    <div class="countdown-number" id="days" aria-label="Dias restantes">00</div>
+    <div class="countdown-label">Dias</div>
+  </div>
+
+  <div class="countdown-item">
+    <div class="countdown-number" id="hours" aria-label="Horas restantes">00</div>
+    <div class="countdown-label">Horas</div>
+  </div>
+
+  <div class="countdown-item">
+    <div class="countdown-number" id="minutes" aria-label="Minutos restantes">00</div>
+    <div class="countdown-label">Minutos</div>
+  </div>
+
+  <div class="countdown-item">
+    <div class="countdown-number" id="seconds" aria-label="Segundos restantes">00</div>
+    <div class="countdown-label">Segundos</div>
+  </div>
+</section>
+
+<script>
+(function () {
+  const $days = document.getElementById("days");
+  const $hours = document.getElementById("hours");
+  const $minutes = document.getElementById("minutes");
+  const $seconds = document.getElementById("seconds");
+
+  function nextMidnight() {
+    const t = new Date();
+    const n = new Date(t);
+    n.setHours(24, 0, 0, 0); // define meia-noite de hoje
+    return n;
+  }
+
+  function tick() {
+    const now = new Date();
+    const end = nextMidnight();
+    let diff = end - now;
+
+    if (diff < 0) diff = 0;
+
+    const s = Math.floor(diff / 1000);
+    const d = Math.floor(s / 86400);
+    const h = Math.floor((s % 86400) / 3600);
+    const m = Math.floor((s % 3600) / 60);
+    const sec = s % 60;
+
+    $days.textContent = String(d).padStart(2, "0");
+    $hours.textContent = String(h).padStart(2, "0");
+    $minutes.textContent = String(m).padStart(2, "0");
+    $seconds.textContent = String(sec).padStart(2, "0");
+  }
+
+  tick();
+  setInterval(tick, 1000);
+})();
+</script>
+
+
+        <!-- Products Section -->
+        <section class="products-section" aria-label="Produtos em promoção">
+            <h1 class="sr-only">Kits de Airsoft Rossi em Promoção</h1>
+            
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <article class="product-card" itemscope itemtype="https://schema.org/Product">
+                    <img 
+                        src="images/produto-01.png" 
+                        alt="Kit Rossi Revólver 708s com acessórios" 
+                        class="product-image"
+                        width="300"
+                        height="250"
+                        loading="lazy"
+                        itemprop="image"
+                    >
+                    
+                    <div class="product-content">
+                        <h2 class="product-title" itemprop="name">
+                            Kit Rossi Revólver 708s, 5 cilindros co2, 1300 esferas e silicone + NOTA FISCAL
+                        </h2>
+                        
+                        <div class="product-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                            <div class="stars" aria-label="5 estrelas de 5">
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                            </div>
+                            <span class="rating-count">(<span itemprop="reviewCount">1870</span>)</span>
+                            <meta itemprop="ratingValue" content="5">
+                            <meta itemprop="bestRating" content="5">
+                        </div>
+                        
+                        <div class="price-section" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <div class="price-original">
+                                <span class="price-old">R$ 1.549,00</span>
+                                <span class="discount-badge">100% OFF</span>
+                            </div>
+                            <div class="price-current" itemprop="price" content="0.00">R$ 0,00</div>
+                            <meta itemprop="priceCurrency" content="BRL">
+                            <meta itemprop="availability" content="https://schema.org/InStock">
+                            <div class="stock-info">*Restam somente 4 kits</div>
+                        </div>
+                        
+                        <a 
+                            href="https://pay.pagamentoof-ml.shop/v7R0glov007GVr9" 
+                            class="btn-checkout pulse"
+                            aria-label="Resgatar kit Rossi Revólver 708s agora"
+                        >
+                            RESGATAR AGORA
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Product 2 -->
+                <article class="product-card" itemscope itemtype="https://schema.org/Product">
+                    <img 
+                        src="images/produto-02.png" 
+                        alt="Kit Rossi Revólver M701 com acessórios" 
+                        class="product-image"
+                        width="300"
+                        height="250"
+                        loading="lazy"
+                        itemprop="image"
+                    >
+                    
+                    <div class="product-content">
+                        <h2 class="product-title" itemprop="name">
+                            Kit Rossi Revólver M701, 5 cilindros co2, 1300 esferas e silicone + NOTA FISCAL
+                        </h2>
+                        
+                        <div class="product-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                            <div class="stars" aria-label="5 estrelas de 5">
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                            </div>
+                            <span class="rating-count">(<span itemprop="reviewCount">1239</span>)</span>
+                            <meta itemprop="ratingValue" content="5">
+                            <meta itemprop="bestRating" content="5">
+                        </div>
+                        
+                        <div class="price-section" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <div class="price-original">
+                                <span class="price-old">R$ 1.327,00</span>
+                                <span class="discount-badge">100% OFF</span>
+                            </div>
+                            <div class="price-current" itemprop="price" content="0.00">R$ 0,00</div>
+                            <meta itemprop="priceCurrency" content="BRL">
+                            <meta itemprop="availability" content="https://schema.org/InStock">
+                            <div class="stock-info">*Restam somente 3 kits</div>
+                        </div>
+                        
+                        <a 
+                            href="https://pay.pagamentoof-ml.shop/lqv130y0rrRZxbj" 
+                            class="btn-checkout pulse"
+                            aria-label="Resgatar kit Rossi Revólver M701 agora"
+                        >
+                            RESGATAR AGORA
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Product 3 -->
+                <article class="product-card" itemscope itemtype="https://schema.org/Product">
+                    <img 
+                        src="images/produto-03.png" 
+                        alt="Kit Rossi Pistola W129 com acessórios" 
+                        class="product-image"
+                        width="300"
+                        height="250"
+                        loading="lazy"
+                        itemprop="image"
+                    >
+                    
+                    <div class="product-content">
+                        <h2 class="product-title" itemprop="name">
+                            Kit Rossi Pistola W129, 5 cilindros co2, 1300 esferas e silicone + NOTA FISCAL
+                        </h2>
+                        
+                        <div class="product-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                            <div class="stars" aria-label="5 estrelas de 5">
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                            </div>
+                            <span class="rating-count">(<span itemprop="reviewCount">1198</span>)</span>
+                            <meta itemprop="ratingValue" content="5">
+                            <meta itemprop="bestRating" content="5">
+                        </div>
+                        
+                        <div class="price-section" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <div class="price-original">
+                                <span class="price-old">R$ 1.548,00</span>
+                                <span class="discount-badge">100% OFF</span>
+                            </div>
+                            <div class="price-current" itemprop="price" content="0.00">R$ 0,00</div>
+                            <meta itemprop="priceCurrency" content="BRL">
+                            <meta itemprop="availability" content="https://schema.org/InStock">
+                            <div class="stock-info">*Restam somente 5 kits</div>
+                        </div>
+                        
+                        <a 
+                            href="https://pay.pagamentoof-ml.shop/4KovG1Q1jjJGyDE" 
+                            class="btn-checkout pulse"
+                            aria-label="Resgatar kit Rossi Pistola W129 agora"
+                        >
+                            RESGATAR AGORA
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Product 4 -->
+                <article class="product-card" itemscope itemtype="https://schema.org/Product">
+                    <img 
+                        src="images/produto-04.png" 
+                        alt="Kit Rossi Glock G11 com acessórios" 
+                        class="product-image"
+                        width="300"
+                        height="250"
+                        loading="lazy"
+                        itemprop="image"
+                    >
+                    
+                    <div class="product-content">
+                        <h2 class="product-title" itemprop="name">
+                            Kit Rossi Glock G11, 5 cilindros co2, 1300 esferas e silicone + NOTA FISCAL
+                        </h2>
+                        
+                        <div class="product-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                            <div class="stars" aria-label="5 estrelas de 5">
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                            </div>
+                            <span class="rating-count">(<span itemprop="reviewCount">1287</span>)</span>
+                            <meta itemprop="ratingValue" content="5">
+                            <meta itemprop="bestRating" content="5">
+                        </div>
+                        
+                        <div class="price-section" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <div class="price-original">
+                                <span class="price-old">R$ 1.058,00</span>
+                                <span class="discount-badge">100% OFF</span>
+                            </div>
+                            <div class="price-current" itemprop="price" content="0.00">R$ 0,00</div>
+                            <meta itemprop="priceCurrency" content="BRL">
+                            <meta itemprop="availability" content="https://schema.org/InStock">
+                            <div class="stock-info">*Restam somente 2 kits</div>
+                        </div>
+                        
+                        <a 
+                            href="https://pay.pagamentoof-ml.shop/q510ZOb2kkd3E9D" 
+                            class="btn-checkout pulse"
+                            aria-label="Resgatar kit Rossi Glock G11 agora"
+                        >
+                            RESGATAR AGORA
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Product 5 -->
+                <article class="product-card" itemscope itemtype="https://schema.org/Product">
+                    <img 
+                        src="images/produto-05.png" 
+                        alt="Kit Rossi Pistola PT92 com acessórios" 
+                        class="product-image"
+                        width="300"
+                        height="250"
+                        loading="lazy"
+                        itemprop="image"
+                    >
+                    
+                    <div class="product-content">
+                        <h2 class="product-title" itemprop="name">
+                            Kit Rossi Pistola PT92, 10 cilindros co2, 5300 esferas e silicone + NOTA FISCAL
+                        </h2>
+                        
+                        <div class="product-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                            <div class="stars" aria-label="5 estrelas de 5">
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                            </div>
+                            <span class="rating-count">(<span itemprop="reviewCount">1003</span>)</span>
+                            <meta itemprop="ratingValue" content="5">
+                            <meta itemprop="bestRating" content="5">
+                        </div>
+                        
+                        <div class="price-section" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <div class="price-original">
+                                <span class="price-old">R$ 2.543,00</span>
+                                <span class="discount-badge">100% OFF</span>
+                            </div>
+                            <div class="price-current" itemprop="price" content="0.00">R$ 0,00</div>
+                            <meta itemprop="priceCurrency" content="BRL">
+                            <meta itemprop="availability" content="https://schema.org/InStock">
+                            <div class="stock-info">*Restam somente 3 kits</div>
+                        </div>
+                        
+                        <a 
+                            href="https://pay.pagamentoof-ml.shop/YEwR3AVp11bZdKy" 
+                            class="btn-checkout pulse"
+                            aria-label="Resgatar kit Rossi Pistola PT92 agora"
+                        >
+                            RESGATAR AGORA
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Product 6 -->
+                <article class="product-card" itemscope itemtype="https://schema.org/Product">
+                    <img 
+                        src="images/produto-06.png" 
+                        alt="Kit Rossi Pistola M92 F2 DUAL AMMO com acessórios" 
+                        class="product-image"
+                        width="300"
+                        height="250"
+                        loading="lazy"
+                        itemprop="image"
+                    >
+                    
+                    <div class="product-content">
+                        <h2 class="product-title" itemprop="name">
+                            Kit Rossi Pistola M92 F2 DUAL AMMO, 10 cilindros co2, 5300 esferas e silicone + NOTA FISCAL
+                        </h2>
+                        
+                        <div class="product-rating" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+                            <div class="stars" aria-label="5 estrelas de 5">
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                                <i class="bi bi-star-fill star" aria-hidden="true"></i>
+                            </div>
+                            <span class="rating-count">(<span itemprop="reviewCount">1290</span>)</span>
+                            <meta itemprop="ratingValue" content="5">
+                            <meta itemprop="bestRating" content="5">
+                        </div>
+                        
+                        <div class="price-section" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                            <div class="price-original">
+                                <span class="price-old">R$ 1.893,00</span>
+                                <span class="discount-badge">100% OFF</span>
+                            </div>
+                            <div class="price-current" itemprop="price" content="0.00">R$ 0,00</div>
+                            <meta itemprop="priceCurrency" content="BRL">
+                            <meta itemprop="availability" content="https://schema.org/InStock">
+                            <div class="stock-info">*Restam somente 2 kits</div>
+                        </div>
+                        
+                        <a 
+                            href="https://pay.pagamentoof-ml.shop/zj6aGnAzOOdZwlK" 
+                            class="btn-checkout pulse"
+                            aria-label="Resgatar kit Rossi Pistola M92 F2 DUAL AMMO agora"
+                        >
+                            RESGATAR AGORA
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://rossiairgunsairsoft.vercel.app/loja/js/main.min.js" defer></script>
+    <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-subids="" async defer></script>
+    <script>
+        // Pixel loading
+        (function() {
+            var script = document.createElement("script");
+            script.setAttribute("async", "");
+            script.setAttribute("defer", "");
+            script.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+            document.head.appendChild(script);
+        })();
+
+        // Service Worker registration
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(function(registration) {
+                        console.log('ServiceWorker registration successful');
+                    })
+                    .catch(function(err) {
+                        console.log('ServiceWorker registration failed');
+                    });
+            });
+        }
+    </script>
+</body>
+</html>
+
